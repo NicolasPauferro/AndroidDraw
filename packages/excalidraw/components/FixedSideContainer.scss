@@ -6,7 +6,7 @@
     pointer-events: none;
   }
 
-  .FixedSideContainer > * {
+  .FixedSideContainer>* {
     pointer-events: var(--ui-pointerEvents);
   }
 
@@ -14,7 +14,18 @@
     left: var(--editor-container-padding);
     top: var(--editor-container-padding);
     right: var(--editor-container-padding);
-    bottom: var(--editor-container-padding);
+    bottom: auto;
+  }
+
+  .FixedSideContainer_side_top .hint-viewer-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
   }
 
   .FixedSideContainer_side_top.zen-mode {
@@ -22,18 +33,20 @@
   }
 }
 
-/* TODO: if these are used, make sure to implement RTL support
 .FixedSideContainer_side_left {
-  left: var(--space-factor);
-  top: var(--space-factor);
-  bottom: var(--space-factor);
-  z-index: 1;
+  left: var(--editor-container-padding);
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  z-index: 10;
 }
 
 .FixedSideContainer_side_right {
-  right: var(--space-factor);
-  top: var(--space-factor);
-  bottom: var(--space-factor);
+  right: var(--editor-container-padding);
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
   z-index: 3;
 }
-*/

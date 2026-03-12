@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">BenehimeDraw</string>
-    <string name="title_activity_main">BenehimeDraw</string>
-    <string name="package_name">com.edsonmatematico.benehimedraw</string>
-    <string name="custom_url_scheme">com.edsonmatematico.benehimedraw</string>
+    <string name="app_name">AndroidDraw</string>
+    <string name="title_activity_main">AndroidDraw</string>
+    <string name="package_name">com.edsonmatematico.androiddraw</string>
+    <string name="custom_url_scheme">com.edsonmatematico.androiddraw</string>
 </resources>
