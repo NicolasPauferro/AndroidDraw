@@ -1,124 +1,91 @@
-<a href="https://excalidraw.com/" target="_blank" rel="noopener">
+<div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" alt="Excalidraw" srcset="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2_dark.png" />
-    <img alt="Excalidraw" src="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2.png" />
+    <source media="(prefers-color-scheme: dark)" alt="AndroidDraw" srcset="https://apolloeducacao.com/androiddraw.png" />
+    <img alt="AndroidDraw" src="https://apolloeducacao.com/androiddraw.png" />
   </picture>
-</a>
-
-<h4 align="center">
-  <a href="https://excalidraw.com">Excalidraw Editor</a> |
-  <a href="https://plus.excalidraw.com/blog">Blog</a> |
-  <a href="https://docs.excalidraw.com">Documentation</a> |
-  <a href="https://plus.excalidraw.com">Excalidraw+</a>
-</h4>
+</div>
 
 <div align="center">
   <h2>
-    An open source virtual hand-drawn style whiteboard. </br>
-    Collaborative and end-to-end encrypted. </br>
+    AndroidDraw: An open source virtual hand-drawn style whiteboard optimized for Android </br>
   <br />
   </h2>
 </div>
 
 <br />
-<p align="center">
-  <a href="https://github.com/excalidraw/excalidraw/blob/master/LICENSE">
-    <img alt="Excalidraw is released under the MIT license." src="https://img.shields.io/badge/license-MIT-blue.svg"  /></a>
-  <a href="https://www.npmjs.com/package/@excalidraw/excalidraw">
-    <img alt="npm downloads/month" src="https://img.shields.io/npm/dm/@excalidraw/excalidraw"  /></a>
-  <a href="https://docs.excalidraw.com/docs/introduction/contributing">
-    <img alt="PRs welcome!" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat"  /></a>
-  <a href="https://discord.gg/UexuTaE">
-    <img alt="Chat on Discord" src="https://img.shields.io/discord/723672430744174682?color=738ad6&label=Chat%20on%20Discord&logo=discord&logoColor=ffffff&widge=false"/></a>
-  <a href="https://deepwiki.com/excalidraw/excalidraw">
-    <img alt="Ask DeepWiki" src="https://deepwiki.com/badge.svg" /></a>
-  <a href="https://twitter.com/excalidraw">
-    <img alt="Follow Excalidraw on Twitter" src="https://img.shields.io/twitter/follow/excalidraw.svg?label=follow+@excalidraw&style=social&logo=twitter"/></a>
-</p>
 
-<div align="center">
-  <figure>
-    <a href="https://excalidraw.com" target="_blank" rel="noopener">
-      <img src="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github%2Fproduct_showcase.png" alt="Product showcase" />
-    </a>
-    <figcaption>
-      <p align="center">
-        Create beautiful hand-drawn like diagrams, wireframes, or whatever you like.
-      </p>
-    </figcaption>
-  </figure>
-</div>
+## 📱 About AndroidDraw
 
-## Features
+**AndroidDraw** is a specialized fork of the popular [Excalidraw](https://excalidraw.com/) project, engineered specifically to deliver a native, highly-optimized whiteboard experience on Android devices. 
 
-The Excalidraw editor (npm package) supports:
+By leveraging **Capacitor**, AndroidDraw packages the powerful Excalidraw web engine into a seamless native Android application, bringing tailored UI refinements and advanced hardware integrations that make mobile drawing and diagramming feel natural and fluid.
+
+---
+
+## ✨ Android-Specific Features
+
+AndroidDraw introduces several key enhancements over the upstream project to ensure a premium mobile experience:
+
+- 📱 **Mobile-Optimized UI Layout:** The interface has been rigorously refined for smaller touch screens.
+  - **Togglable Settings Palette:** Tool settings (like color and stroke width) are hidden behind a sleek top-right toggle button, maximizing your canvas real estate and keeping the UI clean.
+  - **Distraction-Free Canvas:** Unnecessary hint texts and floating tutorial elements have been removed for a truly immersive drawing session.
+  - **Z-Index & Layout Fixes:** Guaranteed proper rendering of toolbars and menus without overlapping components, even on compact smartphone displays.
+- 🚀 **Native Android Wrapper:** Built with Capacitor (`@capacitor/android`), providing a reliable, full-screen, installable Android APK experience out of the box.
+
+---
+
+## 🎨 Core Excalidraw Features Inherited
+
+Because AndroidDraw is built on the shoulders of giants, it retains all the beloved features of the original Excalidraw engine:
 
 - 💯&nbsp;Free & open-source.
 - 🎨&nbsp;Infinite, canvas-based whiteboard.
-- ✍️&nbsp;Hand-drawn like style.
-- 🌓&nbsp;Dark mode.
-- 🏗️&nbsp;Customizable.
-- 📷&nbsp;Image support.
+- ✍️&nbsp;Hand-drawn like, sketchy style.
+- 🌓&nbsp;Dark mode support.
+- 📷&nbsp;Image insertion and manipulation.
 - 😀&nbsp;Shape libraries support.
 - 🌐&nbsp;Localization (i18n) support.
 - 🖼️&nbsp;Export to PNG, SVG & clipboard.
 - 💾&nbsp;Open format - export drawings as an `.excalidraw` json file.
-- ⚒️&nbsp;Wide range of tools - rectangle, circle, diamond, arrow, line, free-draw, eraser...
+- ⚒️&nbsp;Wide range of tools - rectangle, circle, diamond, arrow, line, free-draw, text...
 - ➡️&nbsp;Arrow-binding & labeled arrows.
-- 🔙&nbsp;Undo / Redo.
-- 🔍&nbsp;Zoom and panning support.
+- 🔙&nbsp;Undo / Redo capabilities.
+- 🔍&nbsp;Smooth zoom and panning.
 
-## Excalidraw.com
+---
+## Installing
 
-The app hosted at [excalidraw.com](https://excalidraw.com) is a minimal showcase of what you can build with Excalidraw. Its [source code](https://github.com/excalidraw/excalidraw/tree/master/excalidraw-app) is part of this repository as well, and the app features:
+If you just wanna to install the apk file to use it in your device, you can just download it by cliking on "releases" on the right side of the page
 
-- 📡&nbsp;PWA support (works offline).
-- 🤼&nbsp;Real-time collaboration.
-- 🔒&nbsp;End-to-end encryption.
-- 💾&nbsp;Local-first support (autosaves to the browser).
-- 🔗&nbsp;Shareable links (export to a readonly link you can share with others).
+When you click in "AndroidDraw 1.0" it will open a new tab, download the apk file and ran it on your mobile device.
 
-We'll be adding these features as drop-in plugins for the npm package in the future.
 
-## Quick start
+## 🚀 Building for Android
 
-**Note:** following instructions are for installing the Excalidraw [npm package](https://www.npmjs.com/package/@excalidraw/excalidraw) when integrating Excalidraw into your own app. To run the repository locally for development, please refer to our [Development Guide](https://docs.excalidraw.com/docs/introduction/development).
+To build and run AndroidDraw on your local Android device or emulator:
 
-Use `npm` or `yarn` to install the package.
+1. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Build the Web Application:**
+   ```bash
+   npm run build
+   ```
+3. **Sync with Capacitor:**
+   ```bash
+   npx cap sync android
+   ```
+4. **Compile and Run onto Device/Emulator:**
+   ```bash
+   npx cap run android
+   ```
+   *(Ensure you have Android Studio installed and an Android device connected with USB Debugging enabled, or a virtual device running).*
 
-```bash
-npm install react react-dom @excalidraw/excalidraw
-# or
-yarn add react react-dom @excalidraw/excalidraw
-```
+---
 
-Check out our [documentation](https://docs.excalidraw.com/docs/@excalidraw/excalidraw/installation) for more details!
+## 📄 License & Credits
 
-## Contributing
+AndroidDraw is built upon [Excalidraw](https://github.com/excalidraw/excalidraw), which is released under the **MIT license**. 
 
-- Missing something or found a bug? [Report here](https://github.com/excalidraw/excalidraw/issues).
-- Want to contribute? Check out our [contribution guide](https://docs.excalidraw.com/docs/introduction/contributing) or let us know on [Discord](https://discord.gg/UexuTaE).
-- Want to help with translations? See the [translation guide](https://docs.excalidraw.com/docs/introduction/contributing#translating).
-
-## Integrations
-
-- [VScode extension](https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor)
-- [npm package](https://www.npmjs.com/package/@excalidraw/excalidraw)
-
-## Who's integrating Excalidraw
-
-[Google Cloud](https://googlecloudcheatsheet.withgoogle.com/architecture) • [Meta](https://meta.com/) • [CodeSandbox](https://codesandbox.io/) • [Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) • [Replit](https://replit.com/) • [Slite](https://slite.com/) • [Notion](https://notion.so/) • [HackerRank](https://www.hackerrank.com/) • and many others
-
-## Sponsors & support
-
-If you like the project, you can become a sponsor at [Open Collective](https://opencollective.com/excalidraw) or use [Excalidraw+](https://plus.excalidraw.com/).
-
-## Thank you for supporting Excalidraw
-
-[<img src="https://opencollective.com/excalidraw/tiers/sponsors/0/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/0/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/1/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/1/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/2/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/2/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/3/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/3/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/4/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/4/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/5/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/5/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/6/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/6/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/7/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/7/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/8/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/8/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/9/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/9/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/10/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/10/website)
-
-<a href="https://opencollective.com/excalidraw#category-CONTRIBUTE" target="_blank"><img src="https://opencollective.com/excalidraw/tiers/backers.svg?avatarHeight=32"/></a>
-
-Last but not least, we're thankful to these companies for offering their services for free:
-
-[![Vercel](./.github/assets/vercel.svg)](https://vercel.com) [![Sentry](./.github/assets/sentry.svg)](https://sentry.io) [![Crowdin](./.github/assets/crowdin.svg)](https://crowdin.com)
+For upstream contributions or standard web features, please refer to the original Excalidraw repository. For Android-specific issues or S-Pen integrations, feel free to open an issue or PR here.
